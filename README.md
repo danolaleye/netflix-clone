@@ -1,6 +1,6 @@
 ## Link
 
-Please follow the [link](https://netflix-clone-5785f.web.app/) for deployed prod version
+LIVE [demo](https://netflix-clone-5785f.web.app/) of the NETFLIX Clone App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
