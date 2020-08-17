@@ -1,9 +1,9 @@
 const API_KEY = "bd97a2a060fb99094434ed6fb7ba368f";
 
-const request = {
-  fetchTrending: `/trending/all/week?api_keys=${API_KEY}&language=en-US`,
+const requests = {
+  fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
-  fetchTopRated: `/movie/top_rated?api_keys=${API_KEY}&languages=en-US`,
+  fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&languages=en-US`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
   fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
@@ -11,4 +11,4 @@ const request = {
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
 
-export default request;
+export default requests;
