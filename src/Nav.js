@@ -7,9 +7,6 @@ function Nav() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 100 ? handleShow(true) : handleShow(false);
-      //   if (window.scrollY > 100) {
-      //     handleShow(true);
-      //   } else handleShow(false);
     });
     return () => {
       window.removeEventListener("scroll");
